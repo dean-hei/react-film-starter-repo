@@ -1,9 +1,11 @@
 import React from 'react';
-import FilmPoster from './FilmPoster';
 
 function FilmDetails(props) {
     return (
-
+        <div className="detail">
+            <h3>{props.title}</h3>
+            <p>{props.date.split("-")[0]}</p>
+        </div>
     )
 }
 

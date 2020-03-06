@@ -26,3 +26,35 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+.film-row {
+  display: flex;
+  flex-direction: row;
+}
+.film-row img {
+  height: 200px;
+}
+.detail {
+  padding: 10px;
+}
+.listing img {
+  height: 300px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+.listing p {
+  background-color: turquoise;
+  color: white;
+  padding: 20px;
+  margin: 0;
+}
+.banner {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px;
+} 
+.banner h1 {
+  margin-bottom: 0;
+}
